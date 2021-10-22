@@ -71,6 +71,8 @@ if (addbtn) {
         document.getElementById("useremail").value=""
         document.getElementById("userphone").value=""
 
+        countContacts()
+
         }
         else{
             html_failure=`<div class="alert alert-danger alert-dismissible fade show" role="alert">
