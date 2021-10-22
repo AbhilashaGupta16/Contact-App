@@ -22,13 +22,8 @@ body{
     margin: -15px -15px 10px -15px;
     padding: 10px;
 }
-.all-contacts-btn{
-    color: #fff;
-    text-decoration: none;
-    background: #fff;
-    color: black;
-    padding: 5px 10px;
-    border-radius: 4px;
+.login-navbar-btn{
+    margin: 0px 5px;
 }
 .all-contacts-btn:hover{
     background: rgb(230, 228, 228);

@@ -1,7 +1,7 @@
 console.log("Welcome");
 
 // showTasks()
-// countContacts()
+countContacts()
 
 let addbtn = document.getElementById("submit");
 
@@ -132,9 +132,7 @@ function showTasks() {
     </li>`;
     }
     document.getElementById("myContacts-2").innerHTML = html;
-
-    // location.reload()
-    // document.getElementById("my-form").reload();
+    countContacts()
 }
 
 function deleteTask(index){
@@ -154,28 +152,13 @@ function deleteTask(index){
     localStorage.setItem("contact-phones", JSON.stringify(phonesObj))
 
     // showTasks()
-    // countContacts()
+    countContacts()
 }
-
-// function deleteAll(){
-    // if (confirm("Are you sure, you want to delete all contacts ?")) {
-    //     var list=[]
-    //     localStorage.setItem("contact-usernames",JSON.stringify(list))
-    //     localStorage.setItem("contact-emails",JSON.stringify(list))
-    //     localStorage.setItem("contact-phones",JSON.stringify(list))
-        
-    //     showTasks()
-        // countContacts()
-    // } else {
-    //     txt = "All Contact Remains";
-    // }
-// }
 
 function countContacts(){
     let contactNames = localStorage.getItem("contact-usernames")
     namesObj = JSON.parse(contactNames)
     document.getElementById("newForm").innerHTML=(namesObj.length)+" Contacts"
-    
 }
 
 

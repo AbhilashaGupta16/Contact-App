@@ -21,9 +21,9 @@
 </head>
 
 <body>
-    
+
     <div id="popup" class="popup">
-        
+
     </div>
 
     <div class="header" id="my-header">
@@ -43,7 +43,10 @@
               </li> -->
                     </ul>
                     <form class="d-flex">
-                        <a class="all-contacts-btn" href="/html/list.html">See All Contacts</a>
+                        <button type="button" id="newForm" class="btn btn-outline-primary login-navbar-btn">0 Contacts Now</button>
+                        <a href="/html/list.html"><button type="button" class="btn btn-outline-success login-navbar-btn">See All Contacts</button></a>
+                        <!-- <a class="all-contacts-btn btn btn-outline-success" href="/html/list.html">See All Contacts</a> -->
+                        <!-- <a class="all-contacts-btn" href="/html/list.html">See All Contacts</a> -->
                         <!-- <input id="searchTxt" class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
                         <!-- <button onclick="search()" class="btn btn-outline-success" type="submit">Search</button> -->
                     </form>
@@ -88,30 +91,28 @@
         <ul id="myContacts-2" class="my-contacts">
 
         </ul>
-            <div id="my-form" class="inputField" style="text-align: center;">
-                <h1 class="h3 mb-3 fw-normal">Add New Contact</h1>
-                <!-- <p>Please fill the details to add a new contact.</p> -->
-                <div class="col-12 form-group">
-                    <input type="text" class="form-control inputForm" placeholder="First Name" aria-label="First Name" required
-                        id="username">
-                </div>
-                <div class="col-12 form-group">
-                    <input type="email" class="form-control inputForm" placeholder="Email" aria-label="email" required
-                        id="useremail">
-                </div>
-                <div class="col-12 form-group">
-                    <input type="tel" class="form-control inputForm" placeholder="Phone" aria-label="email" required
-                        id="userphone">
-                </div>
-
-                <button class="w-100 btn btn-lg btn-primary" type="submit" id="submit">Submit Form</button>
+        <div id="my-form" class="inputField" style="text-align: center;">
+            <h1 class="h3 mb-3 fw-normal">Add New Contact</h1>
+            <!-- <p>Please fill the details to add a new contact.</p> -->
+            <div class="col-12 form-group">
+                <input type="text" class="form-control inputForm" placeholder="First Name" aria-label="First Name"
+                    required id="username">
             </div>
+            <div class="col-12 form-group">
+                <input type="email" class="form-control inputForm" placeholder="Email" aria-label="email" required
+                    id="useremail">
+            </div>
+            <div class="col-12 form-group">
+                <input type="tel" class="form-control inputForm" placeholder="Phone" aria-label="email" required
+                    id="userphone">
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit" id="submit">Submit Form</button>
+        </div>
     </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
-
-    <!-- <script src="/js/form.js"></script> -->
     <script src="/js/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -122,8 +123,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-
-    <!-- <script src="/js/index.js"></script> -->
 
 </body>
 
