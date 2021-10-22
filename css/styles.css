@@ -22,6 +22,12 @@ body{
     margin: -15px -15px 10px -15px;
     padding: 10px;
 }
+.nav-icon{
+    color: #fff;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 22px;
+}
 .login-navbar-btn{
     margin: 0px 5px;
 }
@@ -62,6 +68,9 @@ body{
 }
 .my-contacts li:hover .span-phone {
     right:50px;
+}
+.my-contacts li:hover .span-pencil {
+    right:100px;
 }
 .inputForm{
     margin: 10px 0px;

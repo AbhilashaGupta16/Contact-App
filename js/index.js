@@ -162,5 +162,3 @@ function countContacts(){
     namesObj = JSON.parse(contactNames)
     document.getElementById("newForm").innerHTML=(namesObj.length)+" Contacts"
 }
-
-
