@@ -43,7 +43,7 @@ function showTasks() {
                 ${phonesObj[i]}
             </div>
         </div>
-        <span class="span-phone bg-success"><i class="fa fa-phone"></i></span>
+        <a href="tel:${phonesObj[i]}"><span class="span-phone bg-success"><i class="fa fa-phone"></i></span></a>
         <span onclick="deleteTask(${i})" class="span-trash"><i class="fa fa-trash"></i></span>
     </li>`;
     }
