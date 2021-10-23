@@ -159,6 +159,11 @@ function deleteTask(index){
 
 function countContacts(){
     let contactNames = localStorage.getItem("contact-usernames")
-    namesObj = JSON.parse(contactNames)
-    document.getElementById("newForm").innerHTML=(namesObj.length)+" Contacts"
+    if(contactNames== null){
+        document.getElementById("newForm").innerHTML="0 Contacts"
+    }
+    else{
+        namesObj = JSON.parse(contactNames)
+        document.getElementById("newForm").innerHTML=(namesObj.length)+" Contacts"
+    }
 }
