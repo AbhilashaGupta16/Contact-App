@@ -155,7 +155,7 @@ function editTask(i) {
     html = `<nav class="navbar navbar-main navbar-expand-sm navbar-dark bg-dark">
     <div class="container-fluid">
         <i class="nav-icon fa fa-book"></i>
-        <a class="navbar-brand" href="#">My Contacts</a>
+        <a class="navbar-brand" href="list.html">My Contacts</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
             aria-expanded="false" aria-label="Toggle navigation">
@@ -168,7 +168,7 @@ function editTask(i) {
       </li> -->
             </ul>
             <form class="d-flex">
-                <a href="/html/list.html"><button type="button"
+                <a href="list.html"><button type="button"
                         class="btn btn-outline-success login-navbar-btn">See All Contacts</button></a>
             </form>
         </div>
@@ -190,8 +190,7 @@ function editTask(i) {
         <input type="tel" class="form-control inputForm" placeholder="Phone" aria-label="email" required
             id="userphone">
     </div>
-
-    <button  onclick="editTaskBtn()" class="w-100 btn btn-lg btn-primary" type="submit" id="submit">Submit Form</button>
+        <button  onclick="editTaskBtn()" class="w-50 btn btn-lg btn-success footer-btn" type="submit" id="submit">Confirm Edit</button>
 </div>`
 
     document.getElementById("my-header").innerHTML = html
