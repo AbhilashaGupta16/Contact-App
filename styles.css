@@ -39,7 +39,8 @@ body{
     padding: 0;
 }
 .contact-details-item{
-    margin: 0 25%;
+    width: 325px;
+    margin: 0 20px;
 }
 .my-contacts li{
     list-style: none;
