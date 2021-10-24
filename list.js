@@ -176,7 +176,7 @@ function editTask(i) {
 </nav>
 
 <div id="my-form" class="inputField" style="text-align: center;">
-    <h1 class="h3 mb-3 fw-normal">Add New Contact</h1>
+    <h1 class="h3 mb-3 fw-normal">Edit Contact Details</h1>
     <!-- <p>Please fill the details to add a new contact.</p> -->
     <div class="col-12 form-group">
         <input type="text" class="form-control inputForm" placeholder="First Name" aria-label="First Name"
