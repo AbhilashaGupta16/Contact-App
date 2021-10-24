@@ -3,9 +3,9 @@ My Contact-App is a simple web-app where all users can create their personal con
 
 ## Tech Stack Used 💻 
 
-1. HTML
-2. CSS
-3. JavaScript
+- HTML
+- CSS
+- JavaScript
 
 ## Features of My-Conatct-App 👀 
 1. Can add new contacts 
