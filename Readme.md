@@ -28,6 +28,6 @@ My Contact-App is a simple web-app where all users can create their personal con
 
 ![edit-contact-details](https://user-images.githubusercontent.com/56017536/138587249-43fd5cef-259a-429c-a98b-63fd7fab7f14.png)
 
-## 🔗 Website Hosted Url : Visit my [Contacts-App ](https://abhilashagupta16.github.io/Contact-App/list.html) here .
+## 🔗 Website Hosted Url : Visit my [Contacts-App ](https://abhilashagupta16.github.io/Contact-App/index.html) here .
 
 Thank You. 🌸
