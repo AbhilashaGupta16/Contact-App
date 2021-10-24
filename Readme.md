@@ -1,23 +1,31 @@
 # Contact-App 📝
+My Contact-App is a simple web-app where all users can create their personal contacts list . 
 
-## Tech Stack Used :
+## Tech Stack Used 💻 :
 
 1. HTML
 2. CSS
 3. JavaScript
 
+## Features of My-Conatct-App 👀 :
+1. Can add new contacts 
+2. View all Contacts
+3. Edit Contact Details
+4. Make a call directly from webapp
+5. Delete unwanted contacts
+
 ## Screenshots
 
 - Home Page
 
-![homepage](https://user-images.githubusercontent.com/56017536/138586775-6ce8a055-ca9a-4a8d-afe6-6b0551d99c17.png)
+![add-new-contact](https://user-images.githubusercontent.com/56017536/138587213-056b5e03-3ee6-4eac-9d87-4a30e41f6e50.png)
 
 - Contacts List
 
-![my-contacts](https://user-images.githubusercontent.com/56017536/138586829-1010add4-404f-43e1-8a3f-5efabd09be2f.png)
+![my-contacts](https://user-images.githubusercontent.com/56017536/138587236-72e9ad48-8e02-42be-9302-87fda2c2d2dd.png)
 
 - Edit Contact Details 
 
-![edit-contact](https://user-images.githubusercontent.com/56017536/138586850-b6999785-df5f-48ab-9359-59c69c648ff9.png)
+![edit-contact-details](https://user-images.githubusercontent.com/56017536/138587249-43fd5cef-259a-429c-a98b-63fd7fab7f14.png)
 
 Thank You. 🌸
