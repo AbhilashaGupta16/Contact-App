@@ -13,6 +13,7 @@ My Contact-App is a simple web-app where all users can create their personal con
 3. Edit Contact Details
 4. Make a call directly from webapp
 5. Delete unwanted contacts
+6. Search contacts
 
 ## Screenshots 🖼️ 
 
